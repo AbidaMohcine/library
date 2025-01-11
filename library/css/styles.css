@@ -1,0 +1,71 @@
+/* styles.css */
+
+/* Apply background image and ensure it covers the entire screen */
+body {
+  background-image: url('img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  margin: 0;
+}
+
+/* Make the container have a fixed width and add some padding */
+.login-container {
+  width: 100%;
+  max-width: 600px; /* Max width to prevent form from becoming too large on big screens */
+  padding: 20px;
+}
+
+/* Center the title */
+.login-container h2 {
+  text-align: center;
+  color: white;
+}
+
+/* Make the login form have a background color */
+.login-form-3 {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark background with transparency */
+}
+
+/* Adjust input fields and buttons */
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btnSubmit {
+  width: 100%;
+}
+/* emprunts*/
+        /* Custom styles */
+        .alert-warning-custom {
+            background-color: #ffcc00;
+            color: white;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        .table-responsive {
+            margin-top: 20px;
+        }
+
+        .action-btn {
+            cursor: pointer;
+        }
+
+        .modal-header {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .modal-footer {
+            text-align: center;
+        }
+
+
